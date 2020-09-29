@@ -1,0 +1,14 @@
+body {
+    background: lightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa {
+    background: lightcoral;
+    width: 300px;
+    height: 150px;
+}
