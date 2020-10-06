@@ -3,11 +3,14 @@
     padding: 0;   
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #site {
     width: 1000px;
     margin: 0 auto;
 }
-
 
 .cabecalho {
     text-align: center;
@@ -25,7 +28,6 @@
 }
 
 .caixa {
-    background: lightcoral;
     width: 300px;
     height: 150px;
 }
@@ -53,5 +55,78 @@
 
 .links a {
     margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.pai {
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px;
+}
+
+.sidebar {
+    width: 200px;
+    text-align: center;
+    border-left: solid 1px #CDCDCD;
+}
+
+.sidebar-left {
+    width: 200px;
+    text-align: left;
+    border-right: solid 1px #CDCDCD;
+}
+
+.main {
+    width: 550px;
+}
+
+.main p {
+    text-align: justify;
+}
+
+.main h2 {
+    margin:25px 0 5px 0;
+}
+
+figure img {
+    margin: 20px 0 5px 0;
+    width: 150px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+
+.logo {
+    margin-top:5px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    margin-top:5px;
+    width: 45px;
+}
+
+.disciplinas ul {
+    list-style-type: none;
+}
+
+.disciplinas li {
+
+    margin-top: 20px;
+    text-align: left;
+}
+
+.disciplinas li p {
+    font-size: 12px;
+}
+
+.disciplinas li a {
     text-decoration: none;
 }
